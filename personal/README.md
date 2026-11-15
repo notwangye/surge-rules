@@ -2,7 +2,7 @@
 
 本目录适用于国内直连白名单、其余流量使用本地代理策略的 Surge 配置。
 
-- `domestic-direct.list`：`.cn`（包括 `.com.cn`）及常用国内服务。从现用白名单起步，对照 [Sukka Domestic Domains](https://ruleset.skk.moe/List/non_ip/domestic.conf) 补充高德、饿了么、爱奇艺、芒果 TV 等常用域名。Sukka 上游许可证见仓库根目录。
+- `domestic-v4.list`：`.cn`（包括 `.com.cn`）及常用国内服务。从现用白名单起步，对照 [Sukka Domestic Domains](https://ruleset.skk.moe/List/non_ip/domestic.conf) 补充高德、饿了么、爱奇艺、芒果 TV 等常用域名。Sukka 上游许可证见仓库根目录。
 - `apple-direct.list`：Apple 与 iCloud 域名，使用直连。
 - `ibkr.list`：盈透证券域名，交给本地 IBKR 策略组。
 - `wechat-ip.list`：五个小范围 IPv4 CIDR。四个前缀与 [blackmatrix7 微信清单](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/WeChat/WeChat.list) 对照；另一个覆盖现场观察到的腾讯 MMTLS 地址，参考 [网段归属](https://ipgeolocation.io/browse/ipv4/43.160.156.0/24)。网段可能承载其他业务，遇到异常时可在本地 `[Rule]` 中保留节点域名直连和 `LAN`，依次引用以下规则，最后保留本地 `FINAL`：
@@ -10,7 +10,7 @@
 ```ini
 RULE-SET,https://raw.githubusercontent.com/notwangye/surge-rules/stable/personal/ibkr.list,IBKR,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/notwangye/surge-rules/stable/personal/apple-direct.list,DIRECT,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/notwangye/surge-rules/stable/personal/domestic-direct.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/notwangye/surge-rules/stable/personal/domestic-v4.list,DIRECT,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/notwangye/surge-rules/stable/personal/wechat-ip.list,DIRECT,no-resolve,update-interval=86400
 ```
 
