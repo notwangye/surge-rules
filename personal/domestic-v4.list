@@ -92,3 +92,7 @@ IP-CIDR,59.82.33.0/24,no-resolve
 IP-CIDR,139.95.0.0/24,no-resolve
 IP-CIDR,140.205.151.0/24,no-resolve
 IP-CIDR,163.181.201.0/24,no-resolve
+
+# IPv4 subnets observed serving Bilibili video segments.
+IP-CIDR,111.48.162.0/24,no-resolve
+IP-CIDR,175.6.234.0/24,no-resolve
