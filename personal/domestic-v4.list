@@ -82,9 +82,11 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 
 # Observed Alibaba, Taobao and Alibaba Cloud IPv4 ranges.
+IP-CIDR,43.109.124.0/24,no-resolve
 IP-CIDR,43.109.125.0/24,no-resolve
 IP-CIDR,43.109.149.0/24,no-resolve
 IP-CIDR,47.246.180.0/24,no-resolve
+IP-CIDR,59.82.33.0/24,no-resolve
 IP-CIDR,139.95.0.0/24,no-resolve
 IP-CIDR,140.205.151.0/24,no-resolve
 IP-CIDR,163.181.201.0/24,no-resolve
