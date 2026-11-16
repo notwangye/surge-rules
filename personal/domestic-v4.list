@@ -143,3 +143,18 @@ IP-CIDR,175.6.234.0/24,no-resolve
 
 # Observed WeChat mini program monitoring endpoint.
 DOMAIN,wkmp2.tingyun.com
+
+# Observed Alibaba retail, Goofish and Alipay gateway requests.
+DOMAIN,alilang-intranet.alibaba-inc.com
+DOMAIN,tls-goofish.dingtalk.com
+DOMAIN-SUFFIX,alibabachengdun.com
+IP-CIDR,110.76.16.0/24,no-resolve
+IP-CIDR,119.42.231.0/24,no-resolve
+IP-CIDR,163.181.82.0/24,no-resolve
+IP-CIDR,163.181.87.0/24,no-resolve
+IP-CIDR,47.246.177.0/24,no-resolve
+IP-CIDR,47.246.181.0/24,no-resolve
+IP-CIDR,59.82.9.0/24,no-resolve
+IP-CIDR,59.82.121.0/24,no-resolve
+IP-CIDR,43.109.150.0/24,no-resolve
+IP-CIDR,139.95.4.0/24,no-resolve
