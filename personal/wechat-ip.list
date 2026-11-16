@@ -6,3 +6,5 @@ IP-CIDR,101.32.118.0/24,no-resolve
 IP-CIDR,101.32.133.0/24,no-resolve
 # Tencent range observed serving WeChat MMTLS.
 IP-CIDR,43.144.113.0/24,no-resolve
+# Covers observed WeChat MMTLS endpoints in 161.120.168.x and 161.120.169.x.
+IP-CIDR,161.120.168.0/23,no-resolve
