@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,bytetech.info
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cloudflare-cn.com
 DOMAIN-SUFFIX,cmschina.com
+DOMAIN-SUFFIX,e-comewonka.com
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,csdn.com
 DOMAIN-SUFFIX,dewu.com
@@ -96,3 +97,6 @@ IP-CIDR,163.181.201.0/24,no-resolve
 # IPv4 subnets observed serving Bilibili video segments.
 IP-CIDR,111.48.162.0/24,no-resolve
 IP-CIDR,175.6.234.0/24,no-resolve
+
+# Observed WeChat mini program monitoring endpoint.
+DOMAIN,wkmp2.tingyun.com
